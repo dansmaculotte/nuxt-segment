@@ -1,6 +1,6 @@
 {
   "name": "nuxt-segment-analytics",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "NuxtJS module for Segment Analytics.js",
   "license": "MIT",
   "contributors": [
