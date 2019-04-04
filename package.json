@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-segment",
+  "name": "@dansmaculotte/nuxt-segment",
   "version": "0.0.0",
   "description": "NuxtJS module for Segment Analytics.js",
   "license": "MIT",
