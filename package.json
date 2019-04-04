@@ -1,20 +1,25 @@
 {
-  "name": "nuxt-segment-analytics",
-  "version": "0.0.1",
+  "name": "nuxt-segment",
+  "version": "0.0.0",
   "description": "NuxtJS module for Segment Analytics.js",
   "license": "MIT",
   "contributors": [
     {
-      "name": "Dylan Wight <dylan@otechie.com>"
+      "name": "Dylan Wight",
+      "email": "dylan@otechie.com"
+    },
+    {
+      "name": "Gaël Reyrol",
+      "email": "gael@dansmaculotte.fr"
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/https://github.com/dgwight/nuxt-segment-analytics",
+  "repository": "https://github.com/dansmaculotte/nuxt-segment",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt example",
+    "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "yarn run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
@@ -33,20 +38,20 @@
     "vue-segment-analytics": "^0.3.1"
   },
   "devDependencies": {
-    "babel-eslint": "latest",
-    "codecov": "latest",
+    "babel-eslint": "^10.0.1",
+    "codecov": "^3.3.0",
     "dotenv": "^6.1.0",
-    "eslint": "latest",
-    "eslint-config-standard": "latest",
-    "eslint-plugin-import": "latest",
-    "eslint-plugin-jest": "latest",
-    "eslint-plugin-node": "latest",
-    "eslint-plugin-promise": "latest",
-    "eslint-plugin-standard": "latest",
-    "eslint-plugin-vue": "latest",
-    "jest": "latest",
-    "jsdom": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jest": "^24.7.1",
+    "jsdom": "^14.0.0",
+    "nuxt-edge": "^2.6.0-25905610.75e8a893",
+    "standard-version": "^5.0.2"
   }
 }

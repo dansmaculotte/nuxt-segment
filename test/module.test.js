@@ -1,7 +1,7 @@
 const { Nuxt, Builder } = require('nuxt-edge')
 const request = require('request-promise-native')
 
-const config = require('../example/nuxt.config')
+const config = require('./fixture/nuxt.config')
 
 const url = path => `http://localhost:3000${path}`
 const get = path => request(url(path))
@@ -10,7 +10,6 @@ describe('basic', () => {
   let nuxt
 
   beforeAll(async () => {
-    config.dev = false
     nuxt = new Nuxt(config)
     await new Builder(nuxt).build()
     await nuxt.listen(3000)
@@ -22,6 +21,6 @@ describe('basic', () => {
 
   test('render', async () => {
     let html = await get('/')
-    expect(html).toContain('Test')
+    expect(html).toContain('Works!')
   })
 })

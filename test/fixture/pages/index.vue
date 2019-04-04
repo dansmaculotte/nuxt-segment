@@ -1,18 +1,18 @@
 <template>
   <div>
-    Test
+    Works!
   </div>
 </template>
 
 <script>
   export default {
     mounted () {
-      this.$analytics.identify('f4ca124298', {
+      this.$segment.identify('f4ca124298', {
         name: 'Michael Bolton',
         email: 'mbolton@initech.com'
       })
-      this.$analytics.track('Signed Up', { plan: 'Enterprise' })
-      this.$analytics.page()
+      this.$segment.track('Signed Up', { plan: 'Enterprise' })
+      this.$segment.page()
     }
   }
 </script>
