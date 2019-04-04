@@ -71,7 +71,7 @@ export default {
 [david-dm-href]: https://david-dm.org/dansmaculotte/nuxt-segment
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
-[npm-version-src]: https://img.shields.io/npm/dt/nuxt-segment.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-segment
-[npm-downloads-src]: https://img.shields.io/npm/v/nuxt-segment/latest.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-segment
+[npm-version-src]: https://img.shields.io/npm/dt/@dansmaculotte/nuxt-segment.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@dansmaculotte/nuxt-segment
+[npm-downloads-src]: https://img.shields.io/npm/v/@dansmaculotte/nuxt-segment/latest.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@dansmaculotte/nuxt-segment
