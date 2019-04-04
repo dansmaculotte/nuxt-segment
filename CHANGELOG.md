@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.3](https://github.com/dansmaculotte/nuxt-segment/compare/v0.0.2...v0.0.3) (2019-04-04)
+
+
+### Bug Fixes
+
+* Cannot set Vue prototype outside of plugin ([0956b0a](https://github.com/dansmaculotte/nuxt-segment/commit/0956b0a))
+
+
+
 ## [0.0.2](https://github.com/dansmaculotte/nuxt-segment/compare/v0.0.1...v0.0.2) (2019-04-04)
 
 
