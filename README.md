@@ -24,7 +24,7 @@ You can make called with `this.$segment.track()`.
   ],
 
   segment: {
-    sourceId: '',
+    writeKey: '',
     useRouter: true
   }
 }
@@ -32,10 +32,10 @@ You can make called with `this.$segment.track()`.
 
 ## Options
 
-### sourceId
+### writeKey
 
 - Type: `String`
-  - Default: `process.env.SEGMENT_SOURCE_ID || ''`
+  - Default: `process.env.SEGMENT_WRITE_KEY || ''`
 
 ### useRouter
 
