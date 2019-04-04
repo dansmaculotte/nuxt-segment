@@ -12,15 +12,15 @@ You can make called with `this.$segment.track()`.
 
 ## Setup
 
-- Add `nuxt-segment` dependency using yarn or npm to your project
-- Add `nuxt-segment` to `modules` section of `nuxt.config.js`
+- Add `@dansmaculotte/nuxt-segment` dependency using yarn or npm to your project
+- Add `@dansmaculotte/nuxt-segment` to `modules` section of `nuxt.config.js`
 
 ## Usage
 ### nuxt.config.js
 ```js
 {
   modules: [
-    'nuxt-segment'
+    '@dansmaculotte/nuxt-segment'
   ],
 
   segment: {
