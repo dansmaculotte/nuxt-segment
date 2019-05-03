@@ -1,26 +1,32 @@
+jest.setTimeout(60000)
+
 const { Nuxt, Builder } = require('nuxt-edge')
 const request = require('request-promise-native')
+const getPort = require('get-port')
 
 const config = require('./fixture/nuxt.config')
+config.dev = false
 
-const url = path => `http://localhost:3000${path}`
+let nuxt, port
+
+const url = path => `http://localhost:${port}${path}`
 const get = path => request(url(path))
 
 describe('basic', () => {
-  let nuxt
-
   beforeAll(async () => {
     nuxt = new Nuxt(config)
+    await nuxt.ready()
     await new Builder(nuxt).build()
-    await nuxt.listen(3000)
-  }, 60000)
+    port = await getPort()
+    await nuxt.listen(port)
+  })
 
   afterAll(async () => {
     await nuxt.close()
   })
 
   test('render', async () => {
-    let html = await get('/')
+    const html = await get('/')
     expect(html).toContain('Works!')
   })
 })
