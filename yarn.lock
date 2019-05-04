@@ -829,10 +829,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dansmaculotte/vue-segment@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@dansmaculotte/vue-segment/-/vue-segment-0.2.2.tgz#0777af8aebd71640014667d17c989415011f9549"
-  integrity sha512-X1IwaIZ48WYpPnGluCN2YAmf4ag2QGfzaaho03czngL+IWXDOFPz8LsT/+3P70rI3wbGSem6H4lBqL0gCQ23XA==
+"@dansmaculotte/vue-segment@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@dansmaculotte/vue-segment/-/vue-segment-0.2.3.tgz#928f5360feebf5f8adcb2640d43cd6c0abbb1b69"
+  integrity sha512-kCqtxliQHfM2kaH3PaAQXTWmg1nJ7yIQ32aldmx+r1TZZrXpqXhmay/I4IhZeeQlTEIn4nYoDKNmDMaNAQnuqg==
 
 "@jest/console@^24.7.1":
   version "24.7.1"
