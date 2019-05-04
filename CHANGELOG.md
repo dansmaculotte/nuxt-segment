@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.2.0](https://github.com/dansmaculotte/nuxt-segment/compare/v0.1.0...v0.2.0) (2019-05-04)
+
+
+### Features
+
+* pass settings option to vue plugin ([ee00c37](https://github.com/dansmaculotte/nuxt-segment/commit/ee00c37))
+
+
+
 # [0.1.0](https://github.com/dansmaculotte/nuxt-segment/compare/v0.0.4...v0.1.0) (2019-05-04)
 
 
