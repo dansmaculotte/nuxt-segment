@@ -28,7 +28,7 @@
     "lib"
   ],
   "dependencies": {
-    "@dansmaculotte/vue-segment": "^0.2.0"
+    "@dansmaculotte/vue-segment": "^0.2.1"
   },
   "devDependencies": {
     "@babel/core": "latest",
