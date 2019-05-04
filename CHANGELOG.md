@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.3](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.2...v0.2.3) (2019-05-04)
+
+
+### Bug Fixes
+
+* update vue-segment to 0.2.3 ([c1de9cb](https://github.com/dansmaculotte/nuxt-segment/commit/c1de9cb))
+
+
+
 ## [0.2.2](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.1...v0.2.2) (2019-05-04)
 
 
