@@ -10,5 +10,8 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@']
+  modules: [
+    '@nuxtjs/dotenv',
+    '@@'
+  ]
 }

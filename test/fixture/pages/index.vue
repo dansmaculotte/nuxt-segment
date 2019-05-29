@@ -1,6 +1,7 @@
 <template>
   <div>
     Works!
+    <button @click="loadSegment">Load Segment</button>
   </div>
 </template>
 
@@ -13,6 +14,11 @@
       })
       this.$segment.track('Signed Up', { plan: 'Enterprise' })
       this.$segment.page()
+    },
+    methods: {
+      loadSegment() {
+        this.$segment.load(process.env.SEGMENT_WRITE_KEY)
+      }
     }
   }
 </script>
