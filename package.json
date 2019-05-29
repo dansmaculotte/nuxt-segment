@@ -28,13 +28,14 @@
     "lib"
   ],
   "dependencies": {
-    "@dansmaculotte/vue-segment": "^0.2.3"
+    "@dansmaculotte/vue-segment": "^0.2.4"
   },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@nuxtjs/dotenv": "latest",
     "@nuxtjs/eslint-config": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",
