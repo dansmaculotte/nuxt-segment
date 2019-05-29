@@ -1,6 +1,20 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.2.4](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.3...v0.2.4) (2019-05-29)
+
+
+### Bug Fixes
+
+* change dev dependencies version to latest ([df001bc](https://github.com/dansmaculotte/nuxt-segment/commit/df001bc))
+
+
+### Tests
+
+* add load method to ensure segment can be post loaded ([1729c48](https://github.com/dansmaculotte/nuxt-segment/commit/1729c48))
+
+
 
 ## [0.2.3](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.2...v0.2.3) (2019-05-04)
 
