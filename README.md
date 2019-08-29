@@ -82,11 +82,11 @@ export default {
 [MIT License](./LICENSE.md)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/dt/@dansmaculotte/nuxt-segment.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@dansmaculotte/nuxt-segment
-
-[npm-downloads-src]: https://img.shields.io/npm/v/@dansmaculotte/nuxt-segment/latest.svg?style=flat-square
+[npm-downloads-src]: https://img.shields.io/npm/dt/@dansmaculotte/nuxt-segment.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@dansmaculotte/nuxt-segment
+
+[npm-version-src]: https://img.shields.io/npm/v/@dansmaculotte/nuxt-segment/latest.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@dansmaculotte/nuxt-segment
 
 [david-dm-src]: https://david-dm.org/dansmaculotte/nuxt-segment/status.svg?style=flat-square
 [david-dm-href]: https://david-dm.org/dansmaculotte/nuxt-segment
