@@ -58,6 +58,8 @@ This module uses [vue-segment](https://github.com/dansmaculotte/vue-segment) to 
 
 ## Usage
 
+Inside a Vue component, the Segment `analytics` object is available as `this.$segment`:
+
 ```js
 export default {
   mounted () {
@@ -70,6 +72,21 @@ export default {
   }
 }
 ```
+
+`$segment` is also injected into the [Nuxt context](https://nuxtjs.org/api/context/) so you can access it within your Vuex stores:
+
+```js
+export default {
+  LOGOUT({ dispatch }) {
+    return this.$auth.logout()
+      .then(() => {
+        this.$segment.reset()
+        return this.dispatch('AFTER_LOGOUT')
+      })
+  }
+}
+```
+
 
 ## Development
 
