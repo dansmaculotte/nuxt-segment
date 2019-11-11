@@ -81,7 +81,7 @@ export default {
     return this.$auth.logout()
       .then(() => {
         this.$segment.reset();
-        return this.dispatch('AFTER_LOGOUT');
+        return dispatch('AFTER_LOGOUT');
       })
   }
 }
