@@ -80,8 +80,8 @@ export default {
   LOGOUT({ dispatch }) {
     return this.$auth.logout()
       .then(() => {
-        this.$segment.reset()
-        return this.dispatch('AFTER_LOGOUT')
+        this.$segment.reset();
+        return this.dispatch('AFTER_LOGOUT');
       })
   }
 }
