@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.6...v0.2.7) (2019-11-12)
+
+
+### Features
+
+* inject $segment into nuxt context ([7a14088](https://github.com/dansmaculotte/nuxt-segment/commit/7a14088392b3c0c12020e40696e6de16b4f12b85))
+
 ### [0.2.6](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.5...v0.2.6) (2019-10-06)
 
 ### [0.2.5](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.4...v0.2.5) (2019-07-18)
