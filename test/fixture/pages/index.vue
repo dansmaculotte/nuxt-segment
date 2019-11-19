@@ -20,6 +20,9 @@ export default {
   methods: {
     loadSegment () {
       this.$segment.load(process.env.SEGMENT_WRITE_KEY)
+      this.$segment.ready(() => {
+        console.log('ready')
+      })
     }
   }
 }
