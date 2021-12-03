@@ -40,9 +40,9 @@ This module uses [vue-segment](https://github.com/dansmaculotte/vue-segment) to 
   // Or with publicRuntimeConfig
 
   publicRuntimeConfig: {
-    SEGMENT_WRITE_KEY: process.env.SEGMENT_WRITE_KEY || '',
-    SEGMENT_DISABLED: process.env.SEGMENT_DISABLED || false,
-    SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
+    SEGMENT_WRITE_KEY: '',
+    SEGMENT_DISABLED: false,
+    SEGMENT_USE_ROUTER: true,
   }
 }
 ```
