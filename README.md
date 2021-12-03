@@ -36,6 +36,14 @@ This module uses [vue-segment](https://github.com/dansmaculotte/vue-segment) to 
     disabled: false,
     useRouter: true
   }
+
+  // Or with publicRuntimeConfig
+
+  publicRuntimeConfig: {
+    SEGMENT_WRITE_KEY: process.env.SEGMENT_WRITE_KEY || '',
+    SEGMENT_DISABLED: process.env.SEGMENT_DISABLED || false,
+    SEGMENT_USE_ROUTER: process.env.SEGMENT_USE_ROUTER || true,
+  }
 }
 ```
 
@@ -44,17 +52,17 @@ This module uses [vue-segment](https://github.com/dansmaculotte/vue-segment) to 
 ### writeKey
 
 - Type: `String`
-  - Default: `process.env.SEGMENT_WRITE_KEY || ''`
+  - Default: `process.env.SEGMENT_WRITE_KEY || publicRuntimeConfig.SEGMENT_WRITE_KEY`
 
 ### disabled
 
 - Type: `Boolean`
-  - Default: `process.env.SEGMENT_DISABLED || false`
+  - Default: `process.env.SEGMENT_DISABLED || publicRuntimeConfig.SEGMENT_DISABLED || false`
 
 ### useRouter
 
 - Type: `Boolean`
-  - Default: `process.env.SEGMENT_USE_ROUTER || true`
+  - Default: `process.env.SEGMENT_USE_ROUTER || publicRuntimeConfig.SEGMENT_USE_ROUTER || true`
 
 ## Usage
 
