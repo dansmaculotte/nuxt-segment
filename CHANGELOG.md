@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.12](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.11...v0.2.12) (2022-02-24)
+
+
+### Features
+
+* **config:** adding support of public runtime config ([0cf1c09](https://github.com/dansmaculotte/nuxt-segment/commit/0cf1c0948107b315f9f6001cb5816a53141491c1))
+* **config:** adding support of public runtime config ([66a4858](https://github.com/dansmaculotte/nuxt-segment/commit/66a4858422a709a51cddbe2ae746c82cc9b01697))
+
 ### [0.2.11](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.10...v0.2.11) (2020-04-21)
 
 ### [0.2.10](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.9...v0.2.10) (2019-11-20)
