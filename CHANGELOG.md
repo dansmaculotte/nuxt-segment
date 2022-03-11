@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.13](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.12...v0.2.13) (2022-03-11)
+
+
+### Bug Fixes
+
+* shouldUseRouter() always return true ([0f27f61](https://github.com/dansmaculotte/nuxt-segment/commit/0f27f61e0fa0449fc188a5dd41f4a7a22e6efa0b))
+* typo ([26bcb88](https://github.com/dansmaculotte/nuxt-segment/commit/26bcb882e24e7e044f5909c449ec50fbbc3c7f61))
+
 ### [0.2.12](https://github.com/dansmaculotte/nuxt-segment/compare/v0.2.11...v0.2.12) (2022-02-24)
 
 
